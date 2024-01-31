@@ -9,7 +9,10 @@ const Nav = () => {
     const links = ['home', 'about', 'services', 'contact']
 
   return (
-    <nav className="capitalize z-[4] flex items-center relative justify-between w-full py-[48px] px-[12px] md:px-[48px]">
+    <nav
+      data-aos="fade-down"
+      className="capitalize z-[4] flex items-center relative justify-between w-full py-[48px] px-[12px] md:px-[48px]"
+    >
       <NavLink className="items-center z-[4] justify-center gap-[6px] font-bold uppercase flex ">
         <img className="w-12" src={logo} alt="" />
         <span className="text-sm">frontline security</span>
@@ -36,7 +39,10 @@ const Nav = () => {
       </div>
 
       {mobile && (
-        <div className=" md:hidden bg-[#0F084B] flex flex-col w-full inset-0 absolute h-[500px] items-start px-[24px] justify-center gap-[32px] ">
+        <div
+          data-aos="fade-down"
+          className=" md:hidden bg-[#071f2c] flex flex-col w-full inset-0 absolute h-[500px] items-start px-[24px] justify-center gap-[32px] "
+        >
           {links.map((link, el) => {
             return (
               <a

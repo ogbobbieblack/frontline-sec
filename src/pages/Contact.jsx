@@ -1,9 +1,10 @@
 import {  FaTelegramPlane } from "react-icons/fa";
-
+import contactImage from '../assets/contact.jpg'
 
 const Contact = () => {
   return (
     <div
+      data-aos='fade-down'
       id="contact"
       className="min-h-screen px-4 flex flex-col md:flex-row gap-[96px] py-6 md:py-12 md:px-[100px]"
     >
@@ -54,6 +55,14 @@ const Contact = () => {
             <FaTelegramPlane className="text-3xl" />
           </button>
         </form>
+      </div>
+
+      <div className="md:w-[500px] shadow-lg border-t-4 shadow-orange-50 relative rounded-full object-cover object-center">
+        <div
+          aria-hidden="true"
+          className="absolute w-full h-full rounded-full bg-gradient-to-r inset-0 top-2 from-white via-gray-400 to-white shadow-lg shadow-white/50"
+        ></div>
+        <img className="rounded-full z-[10] relative" src={contactImage} alt="" />
       </div>
     </div>
   );

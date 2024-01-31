@@ -1,8 +1,19 @@
-import logo from '../assets/logo.webp'
+
+import guard from '../assets/guard.jpg'
+import guard2 from '../assets/guard2.jpg'
+import guard3 from '../assets/guard3.jpg'
+import guard4 from '../assets/guard4.jpg'
+import guard5 from '../assets/guard5.jpg'
+import guard6 from '../assets/guard6.jpg'
+
 
 const Services = () => {
   return (
-    <div id="services" className="px-4 py-6 md:py-12 md:px-[100px]">
+    <div
+      data-aos="fade-down"
+      id="services"
+      className="px-4 py-6 md:py-12 md:px-[100px]"
+    >
       <h1 className="mb-[16px] font-bold text-center capitalize md:text-[38px] text-[32px]">
         Elevate Your Security: Our Comprehensive Services
       </h1>
@@ -10,11 +21,13 @@ const Services = () => {
       <div className="grid md:grid-cols-3  items-center md:gap-[32px] justify-center">
         <div className="flex text-center md:text-start px-4 py-8 gap-4 flex-col justify-center ">
           <img
-            src={logo}
+            src={guard}
             className="rounded-full w-[50px] mx-auto md:mx-0 border-2 h-[50px]"
             alt=""
           />
-          <h3 className="capitalize text-text text-[24px] font-semibold">fire watch</h3>
+          <h3 className="capitalize text-text text-[24px] font-semibold">
+            fire watch
+          </h3>
           <p className="max-w-[500px] text-[16px]">
             Frontline Integrated Security excels in providing specialized fire
             watch services, ensuring the utmost safety in
@@ -23,7 +36,7 @@ const Services = () => {
 
         <div className="flex text-center md:text-start px-4 py-8 gap-4 flex-col justify-center ">
           <img
-            src={logo}
+            src={guard2}
             className="rounded-full w-[50px] mx-auto md:mx-0 border-2 h-[50px]"
             alt=""
           />
@@ -38,7 +51,7 @@ const Services = () => {
 
         <div className="flex  text-center md:text-start px-4 py-8 gap-4 flex-col justify-center ">
           <img
-            src={logo}
+            src={guard3}
             className="rounded-full w-[50px] mx-auto md:mx-0 border-2 h-[50px]"
             alt=""
           />
@@ -53,7 +66,7 @@ const Services = () => {
 
         <div className="flex  text-center md:text-start px-4 py-8 gap-4 flex-col justify-center ">
           <img
-            src={logo}
+            src={guard4}
             className="rounded-full w-[50px] mx-auto md:mx-0 border-2 h-[50px]"
             alt=""
           />
@@ -68,7 +81,7 @@ const Services = () => {
 
         <div className="flex text-center md:text-start px-4 py-8 gap-4 flex-col justify-center ">
           <img
-            src={logo}
+            src={guard5}
             className="rounded-full w-[50px] mx-auto md:mx-0 border-2 h-[50px]"
             alt=""
           />
@@ -83,7 +96,7 @@ const Services = () => {
 
         <div className="flex text-center md:text-start px-4 py-8 gap-4 flex-col justify-center ">
           <img
-            src={logo}
+            src={guard6}
             className="rounded-full w-[50px] mx-auto md:mx-0 border-2 h-[50px]"
             alt=""
           />

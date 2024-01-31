@@ -1,9 +1,10 @@
-import guard from '../assets/guard.webp'
+import guard from '../assets/guard.jpg'
 import { NavLink } from 'react-router-dom';
 
 const About = () => {
   return (
     <div
+      data-aos='fade-down'
       id="about"
       className="px-4 min-h-screen flex items-center justify-center gap-[64px] flex-col-reverse md:flex-row py-6 md:py-12 md:px-[100px] leading-[1.5]"
     >
