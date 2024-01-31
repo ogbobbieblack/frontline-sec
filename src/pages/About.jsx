@@ -1,5 +1,5 @@
 import guard from '../assets/guard.jpg'
-import { NavLink } from 'react-router-dom';
+
 
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
         </h4>
 
         <button className="border-2 py-[8px] bg-accent/90 shadow-inner shadow-red-800/80 border-accent capitalize rounded-[12px] hover:scale-110 hover:duration-300 hover:-translate-y-1 px-[32px]">
-          <NavLink>get a free quote today</NavLink>
+          <a href='#contact'>get a free quote today</a>
         </button>
       </div>
     </div>
